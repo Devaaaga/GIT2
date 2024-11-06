@@ -1,0 +1,830 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2985197300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 969682400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:00.582Z",
+        "line": 5,
+        "name": "To Validate the Login Functionality Of the Invalid Username and Invalid Password",
+        "description": "",
+        "id": "user-have-to-validate-the-login-functionality;to-validate-the-login-functionality-of-the-invalid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 400114100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have To pass the Invalid Username and Invalid Password",
+            "match": {
+              "location": "StepDefinition.user_Have_To_pass_the_Invalid_Username_and_Invalid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "samrtskilltechnologies@gmail.com",
+                  "sstech@123"
+                ]
+              },
+              {
+                "cells": [
+                  "capgeamini@gmail.com",
+                  "cap@123"
+                ]
+              },
+              {
+                "cells": [
+                  "infosys123@gmail.com",
+                  "info@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Have To Click The Login button",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat org.step.StepDefinition.user_Have_To_Close_The_Chrome_Browser(StepDefinition.java:165)\r\n\tat ✽.User Have To Close The Chrome Browser(file:Login.feature:12)\r\n",
+              "duration": 2947000,
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "User Have To Close The Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_The_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2612182800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76784100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:04.991Z",
+        "line": 14,
+        "name": "To Validate the Login Functionality  Of The Invalid Username and Valid Password",
+        "description": "",
+        "id": "user-have-to-validate-the-login-functionality;to-validate-the-login-functionality--of-the-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 442223900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Have To pass The Invalid Username and valid Password",
+            "match": {
+              "location": "StepDefinition.user_Have_To_pass_The_Invalid_Username_and_valid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "smartskillstechnologies123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "sstech@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Have To Click The Login button",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat org.step.StepDefinition.user_Have_To_Close_The_Chrome_Browser(StepDefinition.java:165)\r\n\tat ✽.User Have To Close The Chrome Browser(file:Login.feature:19)\r\n",
+              "duration": 268200,
+              "status": "pending"
+            },
+            "line": 19,
+            "name": "User Have To Close The Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_The_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2092748800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 806891100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:08.124Z",
+        "line": 21,
+        "name": "To Validate the Login Functionality Of The Valid Username and Valid Password",
+        "description": "",
+        "id": "user-have-to-validate-the-login-functionality;to-validate-the-login-functionality-of-the-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 327766200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Have To pass the valid Username  and valid Password",
+            "match": {
+              "location": "StepDefinition.user_Have_To_pass_the_valid_Username_and_valid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "smartskills@gmail.com",
+                  "smart@123"
+                ]
+              },
+              {
+                "cells": [
+                  "HCL123@gmail.com",
+                  "hcl@123"
+                ]
+              },
+              {
+                "cells": [
+                  "capgemini123@gmail.com",
+                  "cap@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat org.step.StepDefinition.user_Have_To_Click_the_Login_button(StepDefinition.java:171)\r\n\tat ✽.User Have To Click the Login button(file:Login.feature:27)\r\n",
+              "duration": 325800,
+              "status": "pending"
+            },
+            "line": 27,
+            "name": "User Have To Click the Login button",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36500,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User Have To Close the Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_the_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "User Have to Validate the login functionality",
+    "description": "",
+    "id": "user-have-to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2602826100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79589500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:11.360Z",
+        "line": 5,
+        "name": "To validate new acc",
+        "description": "",
+        "id": "to-create-new-account-functionality-of-facebookapplication;to-validate-new-acc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131776800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have To click creat nuw ac button",
+            "match": {
+              "location": "StepDefinition.user_Have_To_click_creat_nuw_ac_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3374227000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To pass the vals",
+            "match": {
+              "location": "StepDefinition.user_Have_To_pass_the_vals(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FName",
+                  "Devaa"
+                ]
+              },
+              {
+                "cells": [
+                  "SName",
+                  "Chandran"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have To close the brosr",
+            "match": {
+              "location": "StepDefinition.user_have_To_close_the_brosr()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Create New Account Functionality Of FacebookApplication",
+    "description": "",
+    "id": "to-create-new-account-functionality-of-facebookapplication",
+    "keyword": "Feature",
+    "uri": "file:createnewacc.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4622098500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77638000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:17.559Z",
+        "line": 5,
+        "name": "To Validate the Login functionality with valid Username and Invalid pwd",
+        "description": "",
+        "id": "to-validate-the--login-functionality-of-facebook-application;to-validate-the-login-functionality-with-valid-username-and-invalid-pwd",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 818844500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have To Enter The valid username and Invalid password",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Enter_The_valid_username_and_Invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "SmartskillTechnologies123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "sstech@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Have To Click The Loginbutton",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Click_The_Loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Have To Close The Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_The_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6880026000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82083700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:23.084Z",
+        "line": 12,
+        "name": "To Validate the Login functionality with Invalid Username and Invalid pwd",
+        "description": "",
+        "id": "to-validate-the--login-functionality-of-facebook-application;to-validate-the-login-functionality-with-invalid-username-and-invalid-pwd",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 568162900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Have To Enter The Invalid Username and Invalid password",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Enter_The_Invalid_Username_and_Invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "HCL123@gmail.com",
+                  "HCL@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Have To Click The Loginbutton",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Click_The_Loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Have To Close The Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_The_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7339393700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97486700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:30.615Z",
+        "line": 18,
+        "name": "To Validate the Login functionality with Invalid Username and valid pwd",
+        "description": "",
+        "id": "to-validate-the--login-functionality-of-facebook-application;to-validate-the-login-functionality-with-invalid-username-and-valid-pwd",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 504679100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Have To Enter The Invalid Username and valid PaSSword",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Enter_The_Invalid_Username_and_valid_PaSSword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "sathish123@gmail.com",
+                  "sathish@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat org.step.StepDefinition.user_Have_To_click_The_Loginbutton(StepDefinition.java:177)\r\n\tat ✽.User Have To click The Loginbutton(file:fblogin.feature:22)\r\n",
+              "duration": 366000,
+              "status": "pending"
+            },
+            "line": 22,
+            "name": "User Have To click The Loginbutton",
+            "match": {
+              "location": "StepDefinition.user_Have_To_click_The_Loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User Have To Close The Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Close_The_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the \tLogin functionality of FaceBook Application",
+    "description": "",
+    "id": "to-validate-the--login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:fblogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5695156700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Have To Launch The Facebook Application Through Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Launch_The_Facebook_Application_Through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99616500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Maximize The Window",
+            "match": {
+              "location": "StepDefinition.user_Have_To_Maximize_The_Window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T07:20:38.563Z",
+        "line": 5,
+        "name": "To validate the Login Functionality of valid Email Id",
+        "description": "",
+        "id": "user-have-to-click-the-forgotten-password-link-and-pass-some-values;to-validate-the-login-functionality-of-valid-email-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1759625100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Have To click forgotten password link",
+            "match": {
+              "location": "StepDefinition.user_Have_To_click_forgotten_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361932600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To pass the values",
+            "match": {
+              "location": "StepDefinition.user_Have_To_pass_the_values(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "emilid",
+                  "devaagar914@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Have To close the browser",
+            "match": {
+              "location": "StepDefinition.user_Have_To_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Have To click The Forgotten Password link and pass some values",
+    "description": "",
+    "id": "user-have-to-click-the-forgotten-password-link-and-pass-some-values",
+    "keyword": "Feature",
+    "uri": "file:forgotten.feature",
+    "tags": []
+  }
+]
